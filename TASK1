@@ -1,0 +1,21 @@
+print("--------------------------------")
+print(" SIMPLE CALCULATOR")
+print("--------------------------------")
+a=int(input("ENTER FIRST NUMBER :"))
+b=int(input("ENTER SECOND NUMBER :"))
+print ("PRESS ")
+print("1-->ADDITION")
+print("2-->SUBTRACTION")
+print("3-->MULTIPLICATION")
+print("4-->DIVISION")
+c=int(input("ENTER YOUR CHOICE :"))
+if c==1:
+ print("SUM =",a+b)
+elif c==2:
+ print("DIFFERENCE =",a-b)
+elif c==3:
+ print("PRODUCT =",a*b)
+elif c==4:
+ print("QUOTIENT=",a/b)
+else:
+ print("INVALID OUTPUT")
